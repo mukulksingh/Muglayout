@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height:100vh;
+    display: grid;
+    background-color: antiquewhite;
+    grid-template-columns: 300px 310px;
+    justify-content: center;
+
+}
+
+.box{
+      height: 400px;
+     margin-top: 100px;
+     justify-items: center;
+
+
+}
+#box-2{
+   background-color: white;
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+
+} 
+#mug{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 399px;
+    width: 300px;
+
+}
+
+h1 ,p,span{
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+h2{
+    margin-left: 25px;
+    display:inline-block;
+    color:rgb(17, 113, 84);
+    font-size: 30px;
+}
+#button{
+    background-color: rgb(23, 113, 86);
+    text-align: center;
+    text-decoration: none;
+     color:white;
+      padding: 10px;
+      margin: 20px;
+     border: none;
+     display: block;
+     border-radius: 10px;
+}
